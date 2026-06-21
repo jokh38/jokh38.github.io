@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-**Seoul, Korea** · Email: kwanghyun.jo@samsung.com · Tel: +82-10-3378-1146
+**Seoul, Korea** · Email: kwanghyun.jo@samsung.com
 
 ## Personal Data
 
@@ -131,9 +131,9 @@ redirect_from:
 21. **Hydrodynamics of RN AdS₄ black hole and holographic optics.**
     Ge X, Jo K, Sin S. *JHEP* 1103, 104 (2011). [arXiv:1012.2515]
 22. **Photo-emission rate of sQGP at finite density.**
-    Jo K, Lee B, Park C, Sin S. *JHEP* 1006, 022 (2010). [arXiv:0909.3914]
+    Jo K, Sin S. *Physical Review D* 83, 026004 (2011). [arXiv:1005.0200]
 23. **Holographic QCD in medium: a bottom up approach.**
-    Ge X, Jo K, Sin S. *JHEP* (2011). [arXiv:1012.2515]
+    Jo K, Lee B, Park C, Sin S. *JHEP* 2010(6), 22 (2010). [arXiv:0909.3914]
 24. **Quark number susceptibility and phase transition in hQCD models.**
     Jo K, Kim Y, Lee H, Sin S. *JHEP* 0811, 040 (2008). [arXiv:0810.0063]
 
