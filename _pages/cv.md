@@ -9,56 +9,48 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2015 – present: Medical Physicist / Researcher
+  * Proton Therapy Center, Samsung Medical Center, Seoul, Korea
+  * Proton therapy physics: Monte Carlo simulation (FLUKA, TOPAS, Geant4),
+    patient-specific QA for wobbling, line-scanning, and pencil-beam-scanning
+    beam delivery, in-vivo range verification, and secondary neutron dosimetry.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Education
+======
+* Ph.D. in Physics (holographic QCD / AdS-CFT correspondence)
+* Earlier training in theoretical high-energy physics (publications in
+  JHEP and Physical Review D, 2008–2011).
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Monte Carlo simulation: FLUKA, TOPAS, Geant4
+* Treatment planning: RayStation, XiO, Eclipse
+* Patient-specific QA: machine log-file analysis, gamma analysis,
+  2D/3D dosimetry
+* Programming: Python, C++, MATLAB, deep learning (CNN-based dose analysis)
+* Radiation dosimetry: photon (IMRT, VMAT, Tomotherapy), proton (PBS, line scanning, wobbling), HDR brachytherapy
+
+Selected honors & infrastructure
+======
+* Contributing physicist to the **first private-hospital-based proton therapy
+  center in Korea** (Samsung Medical Center, operational since 2015).
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
