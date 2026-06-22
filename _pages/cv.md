@@ -20,17 +20,6 @@ redirect_from:
 - **Marital status:** Married
 - **Present status:** Ph.D. Associate Professor
 
-## Areas of Expertise
-
-- Quality assurance of photon therapy: machine, patient-specific
-- Quality assurance of proton therapy: machine, patient-specific
-- Treatment planning: Brainlab, Eclipse, Oncentra, RayStation
-- Beam data measurement for spot scanning (IBA + Eclipse), wobbling and line-scanning (SHI + RayStation)
-- Spot scanning beam modelling for Eclipse (2014)
-- Commissioning of proton therapy systems:
-  - Spot scanning proton therapy of IBA (2014)
-  - Wobbling and line-scanning of SHI (2015)
-
 ## Professional Experience
 
 **Ph.D. Associate Professor · Samsung Medical Center**
@@ -72,19 +61,6 @@ redirect_from:
 - Science and Technology Fellowship, Hanyang University (2005 – 2009)
 - Seoul Fellowship, Seoul Scholarship Foundation (2007 – 2008)
 - BK21, Korea Research Foundation (2006 – 2008)
-
-## Patents
-
-1. **In-vivo dosimetry** — Patent No. 10-1665615 (Korea)
-   Lim Y, Jeong E, Hwang U, Cho K, Lee S, Shin D, Park J, Kim D, Kim J, Kim T, Kim S, Jo K, Kang K, Jeong H
-2. **Apparatus and method for laser alignment in radiation therapy** — Patent No. 10-1470522 (Korea)
-   Lim Y, Kwak J, Kim Y, Moon S, Shin D, Lee S, Jo K, Hwang U
-3. **Reshappable range compensator for particle radiation therapy** — Patent No. 10-2013-0099036 (Korea)
-   Lim Y, Ki D, Kim D, Kim S, Kim S, Kim J, Kim T, Park J, Shin K, Shin D, Lee S, Cho K, Jo K, Hwang U
-4. **방사선 조사용 거치대** (*Stand for radiation irradiation*) — Patent No. 10-2160467 (Korea)
-   Choi C, Cho S, Jo K, Jeong Y
-5. **가상현실을 이용하여 환자의 호흡동조 방사선 치료를 최적화하는 방법 및 시스템** (*Method and system for optimizing respiratory-gated radiation therapy using virtual reality*) — Patent No. 10-2131742 (Korea)
-   Jo K, Pyo H, Cho S, Jeong E, Ahn Y, Oh D, Noh J, Park S, Lee W
 
 ## Conference Posters
 

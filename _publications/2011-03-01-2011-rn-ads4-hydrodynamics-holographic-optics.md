@@ -6,6 +6,7 @@ permalink: /publication/2011-rn-ads4-hydrodynamics-holographic-optics
 excerpt: 'Hydrodynamic modes of Reissner-Nordstrom AdS4 black holes and their holographic interpretation as optical response.'
 date: 2011-03-01
 venue: 'Journal of High Energy Physics'
+authors: 'Ge, X. H.; Jo, K.; Sin, S. J.'
 citation: 'Ge, X. H.; Jo, K.; Sin, S. J. (2011). &quot;Hydrodynamics of RN AdS4 black hole and holographic optics.&quot; <i>Journal of High Energy Physics</i>. 2011(3), 104.'
 ---
 

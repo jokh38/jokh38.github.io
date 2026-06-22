@@ -1,0 +1,30 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h3 class="archive__item-title" itemprop="headline">
+      <a href="javascript:void(0)" class="pub-toggle" onclick="togglePublicationAbstract(this)">
+        <i class="fa fa-angle-right pub-toggle-icon" aria-hidden="true"></i> {{ title }}
+      </a>
+    </h3>
+
+    <p class="archive__item-venue">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+
+    {% if post.authors %}
+    <p class="archive__item-authors">{{ post.authors }}</p>
+    {% endif %}
+
+    <div class="publication-abstract" style="display:none;">
+      {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt }}</p>
+      {% endif %}
+      <p><a href="https://pubmed.ncbi.nlm.nih.gov/?term={{ post.title | cgi_escape }}" target="_blank" rel="noopener"><i class="fa fa-external-link" aria-hidden="true"></i> View on PubMed</a></p>
+    </div>
+  </article>
+</div>

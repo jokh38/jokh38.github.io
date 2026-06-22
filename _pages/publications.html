@@ -11,6 +11,26 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+.pub-toggle { cursor: pointer; text-decoration: none; }
+.pub-toggle:hover { text-decoration: underline; }
+.pub-toggle-icon { transition: transform 0.2s ease; display: inline-block; width: 1em; }
+.pub-toggle-icon.expanded { transform: rotate(90deg); }
+.publication-abstract {
+  margin: 0.5em 0 0.5em 1.5em;
+  padding: 0.5em 0 0.5em 1em;
+  border-left: 3px solid #f2f3f3;
+}
+.archive__item-authors {
+  color: #6c7783;
+  font-size: 0.9em;
+  margin: 0;
+}
+.archive__item-venue {
+  margin: 0;
+}
+</style>
+
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
@@ -23,14 +43,26 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include archive-single-publication.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% include archive-single-publication.html %}
   {% endfor %}
 {% endif %}
 
-
-
+<script>
+function togglePublicationAbstract(elem) {
+  var article = elem.closest('.archive__item');
+  var abstract = article.querySelector('.publication-abstract');
+  var icon = elem.querySelector('.pub-toggle-icon');
+  if (abstract.style.display === 'none' || abstract.style.display === '') {
+    abstract.style.display = 'block';
+    icon.classList.add('expanded');
+  } else {
+    abstract.style.display = 'none';
+    icon.classList.remove('expanded');
+  }
+}
+</script>

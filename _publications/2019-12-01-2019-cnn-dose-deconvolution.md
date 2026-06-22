@@ -6,6 +6,7 @@ permalink: /publication/2019-cnn-dose-deconvolution
 excerpt: 'Convolutional neural network approach to deconvolving 2D dose distributions.'
 date: 2019-12-01
 venue: 'Medical Physics'
+authors: 'Cheon, W.; Kim, S. J.; Kim, K.; Lee, M.; Lee, J.; Jo, K.; Cho, S.; Cho, H.; Han, Y.'
 citation: 'Cheon, W.; Kim, S. J.; Kim, K.; Lee, M.; Lee, J.; Jo, K.; Cho, S.; Cho, H.; Han, Y. (2019). &quot;Feasibility of two-dimensional dose distribution deconvolution using convolution neural networks.&quot; <i>Medical Physics</i>. 46(12), 5833-5847.'
 ---
 

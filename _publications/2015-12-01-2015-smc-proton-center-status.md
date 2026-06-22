@@ -6,6 +6,7 @@ permalink: /publication/2015-smc-proton-center-status
 excerpt: 'Status report on the first private-hospital-based proton therapy center in Korea at Samsung Medical Center.'
 date: 2015-12-01
 venue: 'Radiation Oncology Journal'
+authors: 'Chung, K.; Han, Y.; Kim, J.; Ahn, S. H.; Ju, S. G.; Jung, S. H.; Chung, Y.; Cho, S.; Jo, K.; et al.'
 citation: 'Chung, K.; Han, Y.; Kim, J.; Ahn, S. H.; Ju, S. G.; Jung, S. H.; Chung, Y.; Cho, S.; Jo, K.; et al. (2015). &quot;The first private-hospital based proton therapy center in Korea: status of the Proton Therapy Center at Samsung Medical Center.&quot; <i>Radiation Oncology Journal</i>. 33(4), 337.'
 ---
 

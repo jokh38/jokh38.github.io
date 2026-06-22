@@ -6,6 +6,7 @@ permalink: /publication/2022-spheroid-proton-drug-combinations
 excerpt: '3D tumor spheroid array platform for high-throughput screening of proton-drug combination sensitivity.'
 date: 2022-01-15
 venue: 'International Journal of Molecular Sciences'
+authors: 'Lee, D. W.; Kim, J. E.; Lee, G. H.; Son, A.; Park, H. C.; Oh, D.; Jo, K.; Choi, C.'
 citation: 'Lee, D. W.; Kim, J. E.; Lee, G. H.; Son, A.; Park, H. C.; Oh, D.; Jo, K.; Choi, C. (2022). &quot;High-throughput 3D tumor spheroid array platform for evaluating sensitivity of proton-drug combinations.&quot; <i>International Journal of Molecular Sciences</i>. 23(2), 587.'
 ---
 

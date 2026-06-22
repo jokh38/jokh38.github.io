@@ -6,6 +6,7 @@ permalink: /publication/2020-qa-isocentres-motion-capture
 excerpt: 'Motion-capture-camera-based QA procedure for isocentres of passive proton beam nozzles.'
 date: 2020-06-01
 venue: 'Physica Medica'
+authors: 'Cheon, W.; Jo, K.; Ahn, S. H.; Cho, J.; Han, Y.'
 citation: 'Cheon, W.; Jo, K.; Ahn, S. H.; Cho, J.; Han, Y. (2020). &quot;Quality assurance of isocentres for passive proton beam nozzles using motion capture cameras.&quot; <i>Physica Medica</i>. 70, 139-144.'
 ---
 
