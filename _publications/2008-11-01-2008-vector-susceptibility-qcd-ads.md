@@ -1,7 +1,7 @@
 ---
 title: "Vector susceptibility and QCD phase transition in AdS/QCD models"
 collection: publications
-category: manuscripts
+category: string-theory
 permalink: /publication/2008-vector-susceptibility-qcd-ads
 paperurl: "/files/papers/2008-vector-susceptibility-qcd-ads.pdf"
 excerpt: 'We calculate the vector susceptibility \chi_V in holographic QCD models to study QCD phase transition. After considering the Hawking-Page transition to accommodate the effect of the deconfinement phase transition in the susceptibility, we find that our result qualitatively agrees with the that of lattice QCD. We also discuss the chiral symmetry restoration in AdS/QCD models. The AdS/QCD models respect the chiral symmetry more rigidly than the reality, in the sense that in chiral symmetry restored phase both the chiral condensate and the mass of the quarks are zero.'

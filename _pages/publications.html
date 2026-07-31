@@ -29,6 +29,19 @@ author_profile: true
 .archive__item-venue {
   margin: 0;
 }
+.pub-collapsible { margin-top: 2em; }
+.pub-collapsible-summary {
+  cursor: pointer;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #494e62;
+}
+.pub-collapsible-hint {
+  font-size: 0.65em;
+  font-weight: normal;
+  color: #6c7783;
+  margin-left: 0.5em;
+}
 </style>
 
 <!-- New style rendering if publication categories are defined -->
@@ -40,11 +53,17 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
+        {% if category[1].collapsed %}
+        <details class="pub-collapsible">
+          <summary class="pub-collapsible-summary">{{ category[1].title }}<span class="pub-collapsible-hint">(click to expand)</span></summary>
+        {% else %}
         <h2>{{ category[1].title }}</h2><hr />
+        {% endif %}
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single-publication.html %}
     {% endfor %}
+    {% if title_shown and category[1].collapsed %}</details>{% endif %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
