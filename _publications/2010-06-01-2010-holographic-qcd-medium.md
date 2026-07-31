@@ -3,6 +3,7 @@ title: "Holographic QCD in medium: a bottom up approach"
 collection: publications
 category: manuscripts
 permalink: /publication/2010-holographic-qcd-medium
+paperurl: "/files/papers/2010-holographic-qcd-medium.pdf"
 excerpt: 'A holographic dual of hadrons at finite density is considered. We use the zero black-hole mass limit of Reisner-Nordstrom (RN) AdS background with hard wall to describe a confining background with finite quark density. We calculate density-dependence of meson masses and decay constants. In our model, pion decay constant and its velocity go down but all the meson masses go up as density grows.'
 date: 2010-06-01
 venue: 'Journal of High Energy Physics'

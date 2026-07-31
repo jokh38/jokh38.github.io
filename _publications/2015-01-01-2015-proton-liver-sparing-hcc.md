@@ -3,6 +3,7 @@ title: "Normal liver sparing by proton beam therapy for hepatocellular carcinoma
 collection: publications
 category: manuscripts
 permalink: /publication/2015-proton-liver-sparing-hcc
+paperurl: "/files/papers/2015-proton-liver-sparing-hcc.pdf"
 excerpt: 'Normal liver dose sparing comparison between proton beam therapy, helical IMRT, and VMAT for hepatocellular carcinoma.'
 date: 2015-01-01
 venue: 'Acta Oncologica'
