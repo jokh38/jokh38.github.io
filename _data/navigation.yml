@@ -11,11 +11,5 @@ main:
   - title: "Expertise"
     url: /expertise/
 
-  - title: "Patents"
-    url: /patents/
-
-  - title: "Talks"
-    url: /talks/
-
   - title: "CV"
     url: /cv/

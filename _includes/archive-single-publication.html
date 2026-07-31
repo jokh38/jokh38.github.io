@@ -24,10 +24,7 @@
       {% if post.excerpt %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt }}</p>
       {% endif %}
-      <p><a href="https://pubmed.ncbi.nlm.nih.gov/?term={{ post.title | cgi_escape }}" target="_blank" rel="noopener"><i class="fa fa-external-link" aria-hidden="true"></i> View on PubMed</a></p>
-      {% if post.paperurl %}
-      <p><a href="{{ post.paperurl | relative_url }}" target="_blank" rel="noopener"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download PDF</a></p>
-      {% endif %}
+      <p><a href="https://pubmed.ncbi.nlm.nih.gov/?term={{ post.title | cgi_escape }}" target="_blank" rel="noopener"><i class="fa fa-external-link" aria-hidden="true"></i> View on PubMed</a>{% if post.paperurl %}&nbsp;&nbsp;<a href="{{ post.paperurl | relative_url }}" target="_blank" rel="noopener"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download PDF</a>{% endif %}</p>
     </div>
   </article>
 </div>
